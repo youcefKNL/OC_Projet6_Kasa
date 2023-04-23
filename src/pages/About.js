@@ -1,9 +1,13 @@
 import React from "react";
+import Navigation from "../components/Navigation";
+import HeaderImg from "../components/Banner";
 
 const About = () => {
+  const currentPage = "/about";
   return (
     <div>
-      <h2>About</h2>
+      <Navigation />
+      <HeaderImg currentPage={currentPage} />
     </div>
   );
 };

@@ -1,9 +1,17 @@
 import React from "react";
+import Navigation from "../components/Navigation";
+import Banner from "../components/Banner";
+import KasaCards from "../components/KasaCards";
+import Footer from "../components/Footer";
 
 const Home = () => {
+  const currentPage = "/";
   return (
     <div>
-      <h1>Home</h1>
+      <Navigation />
+      <Banner currentPage={currentPage} />
+      <KasaCards />
+      <Footer />
     </div>
   );
 };
