@@ -17,8 +17,11 @@ const KasaCards = () => {
     <div className="kasaCards-content">
       {data.map((kasa) => {
         return (
-          <div key={kasa.id} className="kasaCards">
-            {/* <img src={kasa.cover} alt={"image de " + kasa.title} /> */}
+          <div
+            key={kasa.id}
+            className="kasaCards"
+            style={{ backgroundImage: `url(${kasa.cover})` }}
+          >
             <h2>{kasa.title}</h2>
           </div>
         );
