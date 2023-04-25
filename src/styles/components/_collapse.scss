@@ -1,5 +1,10 @@
 .collapse {
-  margin: 3% 20%;
+  max-width: 1600px;
+  width: 60%;
+  margin: 3% auto;
+  @media screen and (min-width: 2400px) {
+    width: 50%;
+  }
 
   &:last-of-type {
     margin-bottom: 5%;

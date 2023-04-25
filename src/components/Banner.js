@@ -1,10 +1,13 @@
 import React from "react";
+import aboutImg from "../assets/img/aboutImg.jpg";
+import homeImg from "../assets/img/homeImg.jpg";
 
 const Banner = ({ currentPage }) => {
   let backgroundImageUrl;
 
   if (currentPage === "/") {
-    backgroundImageUrl = "url(/homeImg.jpg)";
+    backgroundImageUrl = `url(${homeImg})`;
+
     return (
       <div className="headerImg">
         <div
@@ -18,7 +21,8 @@ const Banner = ({ currentPage }) => {
       </div>
     );
   } else if (currentPage === "/about") {
-    backgroundImageUrl = "url(/aboutImg.jpg)";
+    backgroundImageUrl = `url(${aboutImg})`;
+
     return (
       <div className="headerImg">
         <div

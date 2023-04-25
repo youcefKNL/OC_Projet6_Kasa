@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
+import jsonData from "../data/logements.json";
 
 const KasaCards = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("./data/logements.json");
-      const jsonData = await response.json();
       setData(jsonData);
       console.log(jsonData);
     };
@@ -20,7 +19,11 @@ const KasaCards = () => {
           <div
             key={kasa.id}
             className="kasaCards"
-            style={{ backgroundImage: `url(${kasa.cover})` }}
+            style={{
+              backgroundImage: ` linear-gradient(360deg,
+                rgba(134, 52, 52, 1) 0%,
+                rgba(255, 98, 98, 0.1) 100%),url(${kasa.cover})`,
+            }}
           >
             <h2>{kasa.title}</h2>
           </div>

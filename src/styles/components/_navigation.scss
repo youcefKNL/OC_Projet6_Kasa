@@ -1,7 +1,11 @@
 .navigation {
   display: flex;
   justify-content: space-between;
-  margin: 4% 10% 4% 10%;
+  margin: 4% auto;
+  max-width: 1600px;
+  @media screen and (max-width: 1800px) {
+    margin: 4% 10%;
+  }
 
   .logo {
     width: 20%;

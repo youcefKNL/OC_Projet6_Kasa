@@ -1,6 +1,10 @@
 .headerImg {
-  margin: 0 10%;
+  max-width: 1600px;
+  margin: 0 auto;
   position: relative;
+  @media screen and (max-width: 1800px) {
+    margin: 0 10%;
+  }
   .headerImg-background {
     height: 30vh;
     width: 100%;
