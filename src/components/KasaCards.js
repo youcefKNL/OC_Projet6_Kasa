@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import jsonData from "../data/logements.json";
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
+import KasaCard from "./KasaCard";
 
 const KasaCards = () => {
   const [data, setData] = useState([]);
@@ -8,7 +9,6 @@ const KasaCards = () => {
   useEffect(() => {
     const fetchData = async () => {
       setData(jsonData);
-      console.log(jsonData);
     };
     fetchData();
   }, []);
@@ -16,21 +16,7 @@ const KasaCards = () => {
   return (
     <div className="kasaCards-content">
       {data.map((kasa) => {
-        return (
-          <NavLink to={`/location/${kasa.id}`} className="kasaCards">
-            <div
-              key={kasa.id}
-              className="kasaCards"
-              style={{
-                backgroundImage: ` linear-gradient(360deg,
-                rgba(134, 52, 52, 1) 0%,
-                rgba(255, 98, 98, 0.1) 100%),url(${kasa.cover})`,
-              }}
-            >
-              <h2>{kasa.title}</h2>
-            </div>
-          </NavLink>
-        );
+        return <KasaCard kasa={kasa} key={kasa.id} />;
       })}
     </div>
   );
