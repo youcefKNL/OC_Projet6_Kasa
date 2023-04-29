@@ -3,8 +3,8 @@ import KasaCardSelected from "../components/KasaCardSelected";
 import Navigation from "../components/Navigation";
 import { useLocation } from "react-router-dom";
 
-const KasaLocation = (props) => {
-  const { title, tag, description, cover } = props.location?.state || {};
+const KasaLocation = () => {
+  const { title, tag, description, cover } = useLocation().state || {};
   console.log(title, tag, description, cover);
   let location = useLocation();
   console.log(location.state);
