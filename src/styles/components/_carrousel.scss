@@ -1,0 +1,34 @@
+.carrousel {
+  position: relative;
+  margin: 4% auto;
+  max-width: 1600px;
+  @include verticalCenter;
+  @media screen and (max-width: 1800px) {
+    margin: 4% 10%;
+  }
+  .carrousselImg {
+    border-radius: 20px;
+    width: 100%;
+    height: 60vh;
+    background: center/cover;
+    object-fit: cover;
+  }
+  .btn {
+    @include verticalCenter;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    padding: 1%;
+  }
+  .countImg {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    .counter {
+      color: $white;
+      font-size: 18px;
+      text-shadow: 0 0 100px black;
+    }
+  }
+}

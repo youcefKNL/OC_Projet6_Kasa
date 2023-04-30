@@ -1,0 +1,40 @@
+.header {
+  margin: 4% auto;
+  max-width: 1600px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: $color-1;
+  @media screen and (max-width: 1800px) {
+    margin: 4% 10%;
+  }
+  .kasaInfo {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    .span {
+      display: block;
+    }
+  }
+  .hostInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    .hostDescription {
+      height: 50%;
+      @include verticalCenter;
+      img {
+        border-radius: 50%;
+        height: 80%;
+      }
+    }
+    .hostRating {
+      height: 50%;
+      display: flex;
+    }
+  }
+}

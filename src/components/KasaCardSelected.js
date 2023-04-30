@@ -1,10 +1,14 @@
 import React from "react";
+import Carrousel from "./KasaLocationComponents/Carrousel";
+import Header from "./KasaLocationComponents/Header";
 
-const KasaCardSelected = () => {
+const KasaCardSelected = ({ kasa }) => {
   return (
     <div>
-      <h3>titre</h3>
-      <p>description</p>
+      <Carrousel images={kasa.pictures} />
+      <Header kasa={kasa} />
+
+      <p>{kasa.description}</p>
     </div>
   );
 };

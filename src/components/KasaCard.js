@@ -9,10 +9,7 @@ const KasaCard = ({ kasa }) => {
       to={{
         pathname: `/${kasa.id}`,
         state: {
-          title: kasa.title,
-          tag: kasa.tags,
-          description: kasa.description,
-          cover: kasa.cover,
+          kasa: kasa,
         },
       }}
       className="kasaCards"
