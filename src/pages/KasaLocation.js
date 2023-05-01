@@ -29,6 +29,7 @@ import Navigation from "../components/Navigation";
 import { DataContext } from "../components/DataContext";
 import { useParams } from "react-router-dom";
 import Page404 from "./Page404";
+import Footer from "../components/Footer";
 
 const KasaLocation = () => {
   const { data } = useContext(DataContext);
@@ -39,6 +40,7 @@ const KasaLocation = () => {
   // Trouver le logement avec le mm Id dans l url
   const selectedKasa = data.find((kasa) => kasa.id === id);
   console.log({ selectedKasa });
+
   // Vérifier si id existe ou pas
   if (!selectedKasa) {
     return <Page404 />;
@@ -48,6 +50,7 @@ const KasaLocation = () => {
     <div>
       <Navigation />
       <KasaCardSelected kasa={selectedKasa} />
+      <Footer />
     </div>
   );
 };

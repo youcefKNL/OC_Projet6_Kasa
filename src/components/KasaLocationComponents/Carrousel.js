@@ -36,33 +36,41 @@ const Carrousel = ({ images }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       handleClick(1);
-    }, 5000); // défilement automatique toutes les 10 secondes
+    }, 5000); //défile pour pas s'ennuyer 5s
 
     return () => clearInterval(interval);
   }, [handleClick]);
 
-  return (
-    <div className="carrousel">
-      <img src={images[index]} alt="selected" className="carrousselImg" />
-      <div className="btn">
-        <img
-          src={chevronLeft}
-          onClick={() => handleClick(-1)}
-          alt="left arrow"
-        />
-        <img
-          src={chevronRight}
-          onClick={() => handleClick(1)}
-          alt="right arrow"
-        />
+  if (images.length > 1) {
+    return (
+      <div className="carrousel">
+        <img src={images[index]} alt="selected" className="carrousselImg" />
+        <div className="btn">
+          <img
+            src={chevronLeft}
+            onClick={() => handleClick(-1)}
+            alt="left arrow"
+          />
+          <img
+            src={chevronRight}
+            onClick={() => handleClick(1)}
+            alt="right arrow"
+          />
+        </div>
+        <div className="countImg">
+          <span className="counter">
+            {index + 1}/{images.length}
+          </span>
+        </div>
       </div>
-      <div className="countImg">
-        <span className="counter">
-          {index + 1}/{images.length}
-        </span>
+    );
+  } else {
+    return (
+      <div className="carrousel">
+        <img src={images[index]} alt="selected" className="carrousselImg" />
       </div>
-    </div>
-  );
+    );
+  }
 };
 
 export default Carrousel;

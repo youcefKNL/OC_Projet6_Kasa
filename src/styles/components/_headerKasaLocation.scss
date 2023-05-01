@@ -10,7 +10,9 @@
     margin: 4% 10%;
   }
   .kasaInfo {
+    min-height: 12vh;
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,23 +20,59 @@
     .span {
       display: block;
     }
+    h3 {
+      font-size: 36px;
+      line-height: 30px;
+      .location {
+        font-size: 18px;
+      }
+    }
+    .tagBtnContainer {
+      display: flex;
+      width: 100%;
+
+      .tagBtn {
+        margin-right: 3%;
+        width: 115px;
+        height: 25px;
+        background-color: $color-1;
+        color: $white;
+        border-radius: 10px;
+        font-size: 0.8em;
+        @include verticalCenter;
+      }
+    }
   }
   .hostInfo {
+    height: 12vh;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
     .hostDescription {
-      height: 50%;
       @include verticalCenter;
+      justify-content: flex-end;
+
+      span {
+        text-align: right;
+        padding-right: 3%;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+      }
       img {
         border-radius: 50%;
-        height: 80%;
+        width: 30%;
       }
     }
+
     .hostRating {
-      height: 50%;
       display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      img {
+        margin-left: 8%;
+      }
     }
   }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 import Banner from "../components/Banner";
-import Collapse from "../components/collapse";
+import Collapse from "../components/Collapse";
 import Footer from "../components/Footer";
 
 const About = () => {

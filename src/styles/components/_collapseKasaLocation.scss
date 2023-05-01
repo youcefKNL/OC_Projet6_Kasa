@@ -1,0 +1,22 @@
+.collapse-container {
+  margin: 4% auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1600px;
+  @media screen and (max-width: 1800px) {
+    margin: 4% 10%;
+  }
+  .collapse {
+    width: 48%;
+    margin: 0;
+    .collapseKasalocationContent {
+      h3 {
+        font-size: 18px;
+      }
+    }
+    .collapse-content {
+      font-size: 18px;
+      min-height: 250px;
+    }
+  }
+}

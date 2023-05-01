@@ -17,9 +17,9 @@ const Rating = ({ score }) => {
 
   return (
     <div className="hostRating">
-      <div className="validStars">{validStarContent}</div>
+      {validStarContent}
       {hasHalfStar && <img src={validStar} alt="half-star" />}
-      <div className="unvalidStars">{unvalidStarContent}</div>
+      {unvalidStarContent}
     </div>
   );
 };
