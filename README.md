@@ -15,8 +15,10 @@
   <img src="https://forthebadge.com/images/badges/uses-js.svg">
   <img src="https://forthebadge.com/images/badges/uses-html.svg">
   <img src="https://forthebadge.com/images/badges/uses-css.svg">
-  <img src=" https://forthebadge.com/generator/?plabel=build&slabel=with+react">
   <img src="https://forthebadge.com/images/badges/0-percent-optimized.svg">
+</p>
+<p align="center">
+<img src="src/assets/icon/build-with-react.svg">
 </p>
 
 # Débuggez et optimisez un site de photographe
