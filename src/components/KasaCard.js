@@ -12,7 +12,7 @@ const KasaCard = ({ kasa }) => {
           kasa: kasa,
         },
       }}
-      className="kasaCards"
+      className="kasaCards kasaCards-link"
     >
       <div
         className="kasaCards"
