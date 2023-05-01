@@ -6,6 +6,7 @@
 <p align="center">
   <img src="https://badges.frapsoft.com/os/v1/open-source-200x33.png?v=103">
 </p>
+
 ![Logo](https://meilleur-mooc.fr/wp-content/uploads/2021/11/Openclassrooms.png)
 
 ## BADGE
@@ -21,102 +22,93 @@
 <img src="src/assets/icon/build-with-react.svg">
 </p>
 
-# Débuggez et optimisez un site de photographe
+# Créez une application web de location immobilière avec React
 
 Nina Carducci - Débuggez et optimisez un site de photographe
 (Projet 5 - Formation en Web Développement - Openclassrooms)
 
 ## Scénario
 
-Vous êtes développeur freelance, et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Pour ce faire, vous avez analysé plusieurs sites internet. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé l’un de vos amis. https://nina-carducci.github.io/
+Kasa vous recrute en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.
 
-Nina répond positivement à votre demande en vous demandant une optimisation de son site. Vous allez donc optimiser son site selon ses demandes indiquées dans son mail plus bas, et lui fournir un rapport détaillé de votre intervention.
+L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance !
 
-## Mail ENVOYÉ
+Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance. Un gros chantier pour cette année !
 
-Voici l’e-mail que vous aviez envoyé à Nina avec votre proposition :
-
-    Objet : Proposition d’optimisation de votre référencement
-    De : Vous
-    À : Nina Carducci
-
-    Bonjour,
-
-    Je suis développeur web freelance, et je vous écris car j'ai pu faire un tour sur votre site nina-carducci.github.io. Je trouve votre travail de grande qualité. Cependant j’ai trouvé que votre site était relativement long à charger, et je pense que vous pourriez gagner beaucoup de visiteurs si votre site était optimisé pour les moteurs de recherche.
-
-    Pour que vous puissiez vous faire une idée de ce qui peut être amélioré sur votre site, je vous joins un document d’audit que j’ai réalisé. Ce document reprend les grandes lignes des problèmes de performances que votre site rencontre.
-
-    Je vous propose mes services afin de pouvoir corriger les éléments mentionnés dans le rapport joint, et améliorer votre référencement. Je vous propose donc une prestation d’optimisation du site sur les points suivants :
-
-    Optimisation des images du site : des images trop lourdes rendent la page très longue à charger.
-    Optimisation du code et de sa structure, afin d’améliorer le chargement et l’accessibilité du site.
-    Qu’est-ce que vous y gagnez ? Un meilleur référencement (SEO), et donc plus de visibilité pour vos potentiels clients.
-
-    Afin que vous puissiez voir les résultats d’optimisation, je vous livrerai le code optimisé, mais aussi un rapport d’intervention montrant :
-
-    les performances de votre site avant et après optimisation (en me basant sur des audits Lighthouse pour les performances, et des audits Wave pour l’accessibilité) ;
-    la liste des modifications que j’ai apportées à votre site ;
-    une liste des cas d’usage de votre site, expliquant comment le site devrait fonctionner, pour que vous puissiez vous assurer que tout fonctionne correctement sur votre site.
-    Je suis à votre disposition pour plus d’informations.
-
-    Cordialement,
-
-    Pièce jointe :
-
-    Audit du site ninacarducci.github.io     https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P9+Optimisation/audit_nina_carducci.pdf
-
-## Appel Telephonique
-
-Nina a répondu favorablement à votre demande, et a convenu d’un rendez-vous téléphonique avec vous pour discuter des détails de l’optimisation du site. Voici le replay de la discussion que vous avez eue avec Nina. Pensez à prendre en note les informations importantes en écoutant l'audio.
+Un point est prévu avec la CTO plus tard dans la semaine, mais pour que vous puissiez vous familiariser avec les enjeux de votre mission, vous trouvez le récapitulatif suivant dans votre boîte mail :
 
 ## Mail RECU
 
-Suite à votre discussion, vous recevez un mail de Nina :
+Objet : Brief refonte site Kasa
+De : Laura
+À : Moi
 
-    Merci pour vos précisions durant notre appel.
+Hello,
 
-    Pour résumer le cadre de votre mission, vous allez donc :
+Bienvenue pour ton premier jour !
 
-    faire une optimisation globale du site, tant sur les performances que sur le SEO ;
-    mettre en place le référencement local en utilisant Schema.org ;
-    ajouter les metas pour les réseaux sociaux ;
-    faire les modifications liées à l’accessibilité du site ;
-    produire un rapport d’optimisation présentant toutes vos actions et leur impact.
+On est vraiment ravis de te compter parmi nous !
 
+Tu vas pouvoir nous aider à donner vie à un chantier sur lequel on travaille depuis plusieurs mois.
 
-    Comme convenu, voici les infos dont vous aurez besoin pour mon référencement local :
+Je préfère te mettre par écrit quelques éléments de contexte qui t'aideront à te projeter dans ta mission avant notre point de jeudi.
 
-    Mon adresse : 68 avenue Alsace-Lorraine, 33200 Bordeaux.
-    Mon numéro de téléphone : 05 56 67 78 89.
-    Je réponds au téléphone du lundi au vendredi de 10 h à 19 h.
+Ton objectif : Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !) et toutes les infos que je te donne ci-dessous. Et ce avec un code de qualité !
 
+Back-end / data : Le recrutement de la personne en charge du back-end n'est pas terminé et va prendre plus de temps que prévu. Du coup, il va falloir que tu fasses sans pour le moment. Je t'ai extrait les 20 dernières annonces de logements dans ce fichier JSON pour que tu puisses construire le Front qui correspond.
+https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json
 
-    Pour finir, j’aimerais vous demander un dernier travail. Comme vous avez certainement dû le constater, il y a des bugs dans le code, et j’aimerais que vous les corrigiez :
+Contraintes techniques : Tu trouveras les coding guidelines de Kasa ici.
+https://course.oc-static.com/projects/Front-End+V2/P9+React+1/Coding+guidelines+Kasa+FR.pdf
 
-    La navigation dans la modale de la galerie entre images précédente et suivante ne fonctionne pas.
-    Lorsque l’on change de filtre pour afficher les images, on ne voit pas quelle catégorie est sélectionnée. Normalement, la catégorie devrait avoir la couleur dorée en fond. Comme pour le filtre par défaut.
+Voilà, j'espère que ce petit récapitulatif t'aura donné suffisamment de pistes pour aborder sereinement tes premiers jours chez nous.
 
+Très bonne journée à toi !
 
-    Enfin, vous trouverez le code de mon site sur ce repo GitHub https://github.com/nina-carducci/nina-carducci.github.io .
-    Vous pouvez le cloner et modifier le code sur un nouveau repo à me partager quand il sera prêt.
+Laura
 
-    Merci beaucoup et bon développement,
+## Mail RECU par le designer
 
-    Nina Carducci
+Objet : Fonctionnalité et design
 
-## Optimizations
+De : Paul
 
-Mission 0 to 100% :
+À : Moi
 
-S.E.O. optimization and accessibility
+Salut,
 
-<p align="center">
-  <img src="https://github.com/youcefKNL/OC_Projet5_NinaCarducci/blob/master/seo%20img.png">
-</p>
+Bienvenue parmi nous ! Laura m’a dit de te briefer sur le design de la nouvelle version du site, alors voici les infos clés.
+
+Design
+
+Voici les maquettes sur Figma pour le design d’interface.
+https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=6-2&t=lyKSTISShbVhASmI-0
+J’ai l’habitude de travailler avec la logique de composants sur Figma ; Sandra m’a dit que ça te faciliterait le travail sur React. Tu trouveras toutes les ressources dont tu as besoin directement dans la maquette (logo, icônes pour les composants, etc.). Pour cela, il suffit de cliquer sur la ressource souhaitée et de faire "Exporter" au format voulu.
+
+Contraintes fonctionnelles
+
+Quelques précisions sur les fonctionnalités du site :
+
+Pour le défilement des photos dans la galerie (composant Gallery) :
+Si l'utilisateur se trouve à la première image et qu'il clique sur "Image précédente", la galerie affiche la dernière image.
+Inversement, quand l'image affichée est la dernière de la galerie, si l'utilisateur clique sur "Image suivante", la galerie affiche la première image.
+S'il n'y a qu'une seule image, les boutons "Suivant" et "Précédent" ainsi que la numérotation n'apparaissent pas.
+La galerie doit toujours rester de la même hauteur, celle indiquée sur la maquette Figma. Les images seront donc coupées et centrées dans le cadre de l’image.
+Collapse : Par défaut, les Collapses sont fermés à l'initialisation de la page.
+Si le Collapse est ouvert, le clic de l'utilisateur permet de le fermer.
+Inversement, si le Collapse est fermé, un clic permet de l'ouvrir.
+
+Bon courage pour le développement, j’ai hâte de voir ce que ça va donner !
+
+Paul
+
+## Build Responsive React app
+
+I adapted an existing apartment rental website, called Kasa, into a responsive React app that makes use of an API.
 
 ## 🛠 Skills
 
-S.E.O. tools, google tools, shema.org, Web Content Accessibility Guidelines (WCAG) ...
+React, React Router, API,JavaScript, SCSS, Responsive Design
 
 # Hi, I'm Youcef! 👋
 
