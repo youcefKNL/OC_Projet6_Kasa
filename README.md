@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://github.com/youcefKNL?tab=repositories"><img src="https://badgen.net/badge/icon/github?icon=github&label"></a></p>
+  <p align="center">
+  Voici le lien vers le site web : https://kasa-by-yk.netlify.app/
+</p>
+<p align="center">
+  <img src="https://badges.frapsoft.com/os/v1/open-source-200x33.png?v=103">
+</p>
+![Logo](https://meilleur-mooc.fr/wp-content/uploads/2021/11/Openclassrooms.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## BADGE
 
-## Available Scripts
+<p align="center">
+  <img src="https://forthebadge.com/images/badges/powered-by-water.svg">
+  <img src="https://forthebadge.com/images/badges/uses-js.svg">
+  <img src="https://forthebadge.com/images/badges/uses-html.svg">
+  <img src="https://forthebadge.com/images/badges/uses-css.svg">
+  <img src=" https://forthebadge.com/generator/?plabel=build&slabel=with+react">
+  <img src="https://forthebadge.com/images/badges/0-percent-optimized.svg">
+</p>
 
-In the project directory, you can run:
+# Débuggez et optimisez un site de photographe
 
-### `npm start`
+Nina Carducci - Débuggez et optimisez un site de photographe
+(Projet 5 - Formation en Web Développement - Openclassrooms)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Scénario
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Vous êtes développeur freelance, et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Pour ce faire, vous avez analysé plusieurs sites internet. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé l’un de vos amis. https://nina-carducci.github.io/
 
-### `npm test`
+Nina répond positivement à votre demande en vous demandant une optimisation de son site. Vous allez donc optimiser son site selon ses demandes indiquées dans son mail plus bas, et lui fournir un rapport détaillé de votre intervention.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Mail ENVOYÉ
 
-### `npm run build`
+Voici l’e-mail que vous aviez envoyé à Nina avec votre proposition :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Objet : Proposition d’optimisation de votre référencement
+    De : Vous
+    À : Nina Carducci
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Bonjour,
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Je suis développeur web freelance, et je vous écris car j'ai pu faire un tour sur votre site nina-carducci.github.io. Je trouve votre travail de grande qualité. Cependant j’ai trouvé que votre site était relativement long à charger, et je pense que vous pourriez gagner beaucoup de visiteurs si votre site était optimisé pour les moteurs de recherche.
 
-### `npm run eject`
+    Pour que vous puissiez vous faire une idée de ce qui peut être amélioré sur votre site, je vous joins un document d’audit que j’ai réalisé. Ce document reprend les grandes lignes des problèmes de performances que votre site rencontre.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Je vous propose mes services afin de pouvoir corriger les éléments mentionnés dans le rapport joint, et améliorer votre référencement. Je vous propose donc une prestation d’optimisation du site sur les points suivants :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Optimisation des images du site : des images trop lourdes rendent la page très longue à charger.
+    Optimisation du code et de sa structure, afin d’améliorer le chargement et l’accessibilité du site.
+    Qu’est-ce que vous y gagnez ? Un meilleur référencement (SEO), et donc plus de visibilité pour vos potentiels clients.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Afin que vous puissiez voir les résultats d’optimisation, je vous livrerai le code optimisé, mais aussi un rapport d’intervention montrant :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    les performances de votre site avant et après optimisation (en me basant sur des audits Lighthouse pour les performances, et des audits Wave pour l’accessibilité) ;
+    la liste des modifications que j’ai apportées à votre site ;
+    une liste des cas d’usage de votre site, expliquant comment le site devrait fonctionner, pour que vous puissiez vous assurer que tout fonctionne correctement sur votre site.
+    Je suis à votre disposition pour plus d’informations.
 
-## Learn More
+    Cordialement,
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Pièce jointe :
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Audit du site ninacarducci.github.io     https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P9+Optimisation/audit_nina_carducci.pdf
 
-### Code Splitting
+## Appel Telephonique
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Nina a répondu favorablement à votre demande, et a convenu d’un rendez-vous téléphonique avec vous pour discuter des détails de l’optimisation du site. Voici le replay de la discussion que vous avez eue avec Nina. Pensez à prendre en note les informations importantes en écoutant l'audio.
 
-### Analyzing the Bundle Size
+## Mail RECU
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Suite à votre discussion, vous recevez un mail de Nina :
 
-### Making a Progressive Web App
+    Merci pour vos précisions durant notre appel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    Pour résumer le cadre de votre mission, vous allez donc :
 
-### Advanced Configuration
+    faire une optimisation globale du site, tant sur les performances que sur le SEO ;
+    mettre en place le référencement local en utilisant Schema.org ;
+    ajouter les metas pour les réseaux sociaux ;
+    faire les modifications liées à l’accessibilité du site ;
+    produire un rapport d’optimisation présentant toutes vos actions et leur impact.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+    Comme convenu, voici les infos dont vous aurez besoin pour mon référencement local :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    Mon adresse : 68 avenue Alsace-Lorraine, 33200 Bordeaux.
+    Mon numéro de téléphone : 05 56 67 78 89.
+    Je réponds au téléphone du lundi au vendredi de 10 h à 19 h.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Pour finir, j’aimerais vous demander un dernier travail. Comme vous avez certainement dû le constater, il y a des bugs dans le code, et j’aimerais que vous les corrigiez :
+
+    La navigation dans la modale de la galerie entre images précédente et suivante ne fonctionne pas.
+    Lorsque l’on change de filtre pour afficher les images, on ne voit pas quelle catégorie est sélectionnée. Normalement, la catégorie devrait avoir la couleur dorée en fond. Comme pour le filtre par défaut.
+
+
+    Enfin, vous trouverez le code de mon site sur ce repo GitHub https://github.com/nina-carducci/nina-carducci.github.io .
+    Vous pouvez le cloner et modifier le code sur un nouveau repo à me partager quand il sera prêt.
+
+    Merci beaucoup et bon développement,
+
+    Nina Carducci
+
+## Optimizations
+
+Mission 0 to 100% :
+
+S.E.O. optimization and accessibility
+
+<p align="center">
+  <img src="https://github.com/youcefKNL/OC_Projet5_NinaCarducci/blob/master/seo%20img.png">
+</p>
+
+## 🛠 Skills
+
+S.E.O. tools, google tools, shema.org, Web Content Accessibility Guidelines (WCAG) ...
+
+# Hi, I'm Youcef! 👋
+
+https://github.com/youcefKNL?tab=repositories
+
+## 🔗 Links
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
