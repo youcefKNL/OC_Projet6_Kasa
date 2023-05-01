@@ -7,6 +7,12 @@
   }
   .headerImg-background {
     height: 25vh;
+    @media screen and (max-width: 1000px) {
+      height: 20vh;
+    }
+    @media screen and (max-width: 500px) {
+      height: 15vh;
+    }
     width: 100%;
     background: center/cover;
     border-radius: 20px;
@@ -31,11 +37,17 @@
     height: 100%;
     width: 100%;
     color: $white;
-    line-height: 68.45px;
     font-weight: 500;
     text-shadow: 0 0 100px black;
-    font-size: 48px;
+    font-size: 3em;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0);
+    @media screen and (max-width: 1000px) {
+      font-size: 1.5em;
+    }
+    @media screen and (max-width: 500px) {
+      width: 80%;
+      margin-left: 2%;
+    }
   }
 }

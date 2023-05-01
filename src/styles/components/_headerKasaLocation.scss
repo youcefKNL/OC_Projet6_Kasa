@@ -1,7 +1,7 @@
 .header {
   margin: 4% auto 1% auto;
   max-width: 1600px;
-  height: 100%;
+  height: 200px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -9,9 +9,13 @@
   @media screen and (max-width: 1800px) {
     margin: 4% 10%;
   }
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    height: auto;
+  }
   .kasaInfo {
-    min-height: 15vh;
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,10 +24,18 @@
       display: block;
     }
     h3 {
-      font-size: 36px;
-      line-height: 30px;
+      font-size: 2.5em;
+      // line-height: 30px;
+      // line-height: 150%;
+      @media screen and (max-width: 800px) {
+        font-size: 1.8em;
+      }
       .location {
-        font-size: 18px;
+        font-size: 0.5em;
+        line-height: 150%;
+        @media screen and (max-width: 800px) {
+          font-size: 0.5em;
+        }
       }
     }
     .tagBtnContainer {
@@ -40,18 +52,30 @@
         font-size: 0.8em;
         @include verticalCenter;
         text-align: center;
-        padding: 1% 0;
+        padding: 15px 0;
+        @media screen and (max-width: 800px) {
+          font-size: 0.7em;
+          padding: 10px 0;
+        }
       }
     }
   }
   .hostInfo {
-    min-height: 15vh;
+    height: 100%;
 
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
+    @media screen and (max-width: 800px) {
+      align-items: flex-start;
+      flex-direction: row-reverse;
+      align-items: center;
+      width: 100%;
+      margin-top: 3%;
+    }
     .hostDescription {
+      width: 100%;
       @include verticalCenter;
       justify-content: flex-end;
 
@@ -64,7 +88,7 @@
       }
       img {
         border-radius: 50%;
-        width: 50%;
+        width: 40%;
       }
     }
 
@@ -74,6 +98,14 @@
       width: 100%;
       img {
         margin-left: 8%;
+        @media screen and (max-width: 800px) {
+          width: 8%;
+          margin-left: 0;
+          margin-right: 8%;
+        }
+      }
+      @media screen and (max-width: 800px) {
+        justify-content: flex-start;
       }
     }
   }

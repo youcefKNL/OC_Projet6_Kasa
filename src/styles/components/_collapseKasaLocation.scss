@@ -6,9 +6,16 @@
   @media screen and (max-width: 1800px) {
     margin: 4% 10%;
   }
+  @media screen and (max-width: 800px) {
+    display: block;
+  }
   .collapse {
     width: 48%;
     margin: 0;
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      margin-bottom: 10%;
+    }
     .collapseKasalocationContent {
       h3 {
         font-size: 18px;

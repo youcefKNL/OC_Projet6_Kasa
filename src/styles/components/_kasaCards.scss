@@ -33,6 +33,11 @@
     @media screen and (max-width: 990px) {
       max-width: none;
     }
+    @media screen and (max-width: 500px) {
+      min-width: auto;
+      min-height: 255px;
+      flex: 1 0 90%;
+    }
     &:hover {
       cursor: pointer;
     }
