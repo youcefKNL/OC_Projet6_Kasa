@@ -40,6 +40,8 @@
         border-radius: 10px;
         font-size: 0.8em;
         @include verticalCenter;
+        text-align: center;
+        padding: 1% 0;
       }
     }
   }
