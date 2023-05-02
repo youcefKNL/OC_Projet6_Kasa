@@ -35,7 +35,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/:id" element={<KasaLocation />} />
+          <Route path="/location/:id" element={<KasaLocation />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
       </DataDone>

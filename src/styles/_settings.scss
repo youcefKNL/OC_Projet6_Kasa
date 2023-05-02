@@ -15,6 +15,9 @@ $color-Gradient: linear-gradient(
 $color-3: #282c34;
 $white: #ffffff;
 
+$bg-img-home: url("../assets/img/homeImg.jpg");
+$bg-img-about: url("../assets/img/aboutImg.jpg");
+
 @mixin verticalCenter {
   display: flex;
   justify-content: center;

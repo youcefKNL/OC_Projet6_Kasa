@@ -7,22 +7,17 @@ const KasaCard = ({ kasa }) => {
     <NavLink
       key={kasa.id}
       to={{
-        pathname: `/${kasa.id}`,
+        pathname: `/location/${kasa.id}`,
         state: {
           kasa: kasa,
         },
       }}
       className="kasaCards kasaCards-link"
     >
-      <div
-        className="kasaCards"
-        style={{
-          backgroundImage: `linear-gradient(360deg,
-            rgba(134, 52, 52, 1) 0%,
-            rgba(255, 98, 98, 0.1) 100%),url(${kasa.cover})`,
-        }}
-      >
+      <div className="kasaCards">
+        <img src={kasa.cover} alt={kasa.title} />
         <h2>{kasa.title}</h2>
+        <div className="gradientWrap"></div>
       </div>
     </NavLink>
   );

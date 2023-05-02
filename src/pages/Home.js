@@ -5,11 +5,11 @@ import KasaCards from "../components/KasaCards";
 import Footer from "../components/Footer";
 
 const Home = () => {
-  const currentPage = "/";
+  //const currentPage = "/";
   return (
     <div>
       <Navigation />
-      <Banner currentPage={currentPage} />
+      <Banner title="Chez vous, partout et ailleurs" class="homeBackground" />
       <KasaCards />
       <Footer />
     </div>

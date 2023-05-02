@@ -5,11 +5,11 @@ import Collapse from "../components/Collapse";
 import Footer from "../components/Footer";
 
 const About = () => {
-  const currentPage = "/about";
+  //const currentPage = "/about";
   return (
     <div>
       <Navigation />
-      <Banner currentPage={currentPage} />
+      <Banner class="aboutBackground" />
       <Collapse title="Fiabilité">
         Les annonces postées sur Kasa garantissent une fiabilité totale. Les
         photos sont conformes aux logements, et toutes les informations sont
