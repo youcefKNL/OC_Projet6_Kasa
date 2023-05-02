@@ -1,8 +1,7 @@
 <p align="center">
   <a href="https://github.com/youcefKNL?tab=repositories"><img src="https://badgen.net/badge/icon/github?icon=github&label"></a></p>
 
-
-  <p align="center">[![Netlify Status](https://api.netlify.com/api/v1/badges/f3ec1afc-c322-489d-a119-dd83c41d1800/deploy-status)](https://app.netlify.com/sites/kasa-by-yk/deploys)</p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f3ec1afc-c322-489d-a119-dd83c41d1800/deploy-status)](https://app.netlify.com/sites/kasa-by-yk/deploys)
 
 <p align="center">
   Voici le lien vers le site web : https://kasa-by-yk.netlify.app/
