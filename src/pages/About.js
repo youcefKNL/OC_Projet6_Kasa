@@ -1,14 +1,11 @@
 import React from "react";
-import Navigation from "../components/Navigation";
 import Banner from "../components/Banner";
 import Collapse from "../components/Collapse";
-import Footer from "../components/Footer";
 
 const About = () => {
   //const currentPage = "/about";
   return (
     <div>
-      <Navigation />
       <Banner class="aboutBackground" />
       <Collapse title="Fiabilité">
         Les annonces postées sur Kasa garantissent une fiabilité totale. Les
@@ -33,7 +30,6 @@ const About = () => {
         bien respectés. Nous organisons également des ateliers sur la sécurité
         domestique pour nos hôtes.
       </Collapse>
-      <Footer />
     </div>
   );
 };

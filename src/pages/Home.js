@@ -1,17 +1,13 @@
 import React from "react";
-import Navigation from "../components/Navigation";
 import Banner from "../components/Banner";
 import KasaCards from "../components/KasaCards";
-import Footer from "../components/Footer";
 
 const Home = () => {
   //const currentPage = "/";
   return (
     <div>
-      <Navigation />
       <Banner title="Chez vous, partout et ailleurs" class="homeBackground" />
       <KasaCards />
-      <Footer />
     </div>
   );
 };
