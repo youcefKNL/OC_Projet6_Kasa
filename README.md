@@ -2,7 +2,7 @@
   <a href="https://github.com/youcefKNL?tab=repositories"><img src="https://badgen.net/badge/icon/github?icon=github&label"></a></p>
 
 <p align="center">
-Voici le lien vers le site web déployé sur Github <br/>(page 404 perso non pris en charge par github)<br/>:https://youcefknl.github.io/OC_Projet6_Kasa/
+Voici le lien vers le site web déployé sur Github <br/>(page 404 perso non pris en charge par github):<br/>https://youcefknl.github.io/OC_Projet6_Kasa/
 <p align="center">
   Voici le lien vers le site web déployé sur Netlify (actif pendant 90 jours): https://kasa-by-yk.netlify.app/
 </p>
