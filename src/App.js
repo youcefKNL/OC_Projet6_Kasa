@@ -9,8 +9,12 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 
 const App = () => {
+  let basename = "/";
+  if (window.location.hostname === "youcefknl.github.io") {
+    basename = "/OC_Projet6_Kasa";
+  }
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={basename}>
       <DataDone>
         <Navigation />
         <Routes>
