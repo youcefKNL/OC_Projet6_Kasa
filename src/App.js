@@ -10,18 +10,16 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/OC_Projet6_Kasa">
-      <DataDone>
-        <Navigation />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/location/:id" element={<KasaLocation />} />
-          <Route path="*" element={<Page404 />} />
-        </Routes>
-        <Footer />
-      </DataDone>
-    </BrowserRouter>
+    <DataDone>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/location/:id" element={<KasaLocation />} />
+        <Route path="*" element={<Page404 />} />
+      </Routes>
+      <Footer />
+    </DataDone>
   );
 };
 
