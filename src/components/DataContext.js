@@ -1,5 +1,28 @@
+// import React, { createContext, useState, useEffect } from "react";
+// import jsonData from "../data/logements.json";
+
+// export const DataContext = createContext();
+
+// export const DataDone = ({ children }) => {
+//   const [data, setData] = useState([]);
+
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       try {
+//         setData(jsonData);
+//       } catch (error) {
+//         console.log(error);
+//       }
+//     };
+//     fetchData();
+//   }, []);
+
+//   return (
+//     <DataContext.Provider value={{ data }}>{children}</DataContext.Provider>
+//   );
+// };
+
 import React, { createContext, useState, useEffect } from "react";
-import jsonData from "../data/logements.json";
 
 export const DataContext = createContext();
 
@@ -8,9 +31,14 @@ export const DataDone = ({ children }) => {
 
   useEffect(() => {
     const fetchData = async () => {
+      // Mettre l adresse de la futur API dans la const url https...
+      const url = "./data/logements.json";
       try {
+        const response = await fetch(url);
+        const jsonData = await response.json();
         setData(jsonData);
       } catch (error) {
+        console.log("problème communication avec api");
         console.log(error);
       }
     };
