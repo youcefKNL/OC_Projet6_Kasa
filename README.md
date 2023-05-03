@@ -2,12 +2,21 @@
   <a href="https://github.com/youcefKNL?tab=repositories"><img src="https://badgen.net/badge/icon/github?icon=github&label"></a></p>
 
 <p align="center">
-  Voici le lien vers le site web : https://kasa-by-yk.netlify.app/
+Voici le lien vers le site web déployé sur Github (page 404 perso non pris en charge par github):https://youcefknl.github.io/OC_Projet6_Kasa/
+<p align="center">
+  Voici le lien vers le site web déployé sur Netlify (actif pendant 90 jours): https://kasa-by-yk.netlify.app/
 </p>
 
 <p align="center">
   <img src="https://badges.frapsoft.com/os/v1/open-source-200x33.png?v=103">
 </p>
+
+## Tester en local le site et l'ensemble des fonctionnalités:
+
+1. Clonez le dépôt: `gh repo clone youcefKNL/OC_Projet6_Kasa`
+2. Installez les dépendances: `npm install`
+3. Démarrez l'application: `npm start`
+4. Enjoy!
 
 ![Logo](https://meilleur-mooc.fr/wp-content/uploads/2021/11/Openclassrooms.png)
 
