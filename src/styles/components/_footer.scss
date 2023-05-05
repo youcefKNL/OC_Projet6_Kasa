@@ -3,6 +3,7 @@
   height: 20vh;
   color: $white;
   @include verticalCenter;
+  text-align: center;
   flex-direction: column;
   .logo {
     text-align: center;
