@@ -31,8 +31,8 @@ Voici le lien vers l'app React déployé sur Github :<br/>https://youcefknl.gith
 
 # Créez une application web de location immobilière avec React
 
-Nina Carducci - Débuggez et optimisez un site de photographe
-(Projet 5 - Formation en Web Développement - Openclassrooms)
+Kasa - Mise à jour d'un vieux site web en App React
+(Projet 6 - Formation en Web Développement - Openclassrooms)
 
 ## Scénario
 
