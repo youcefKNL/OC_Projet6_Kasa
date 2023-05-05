@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/OC_Projet6_Kasa/static/css/main.851a5639.css",
-    "main.js": "/OC_Projet6_Kasa/static/js/main.e2335501.js",
+    "main.css": "/OC_Projet6_Kasa/static/css/main.0e4b236e.css",
+    "main.js": "/OC_Projet6_Kasa/static/js/main.693d6bcd.js",
     "static/media/aboutImg.jpg": "/OC_Projet6_Kasa/static/media/aboutImg.0b346e47c384ff9df680.jpg",
     "static/media/homeImg.jpg": "/OC_Projet6_Kasa/static/media/homeImg.6eeee68e2fb1a13a21a8.jpg",
     "index.html": "/OC_Projet6_Kasa/index.html",
@@ -9,11 +9,11 @@
     "static/media/chevron-up-solid.svg": "/OC_Projet6_Kasa/static/media/chevron-up-solid.4a0d3650fa868343d6697607ac04673f.svg",
     "static/media/chevron-right-solid.svg": "/OC_Projet6_Kasa/static/media/chevron-right-solid.88153a5d119c2744ffe34dca1ef843df.svg",
     "static/media/chevron-left-solid.svg": "/OC_Projet6_Kasa/static/media/chevron-left-solid.10a56405f7ff25b1792c6025af90ecbd.svg",
-    "main.851a5639.css.map": "/OC_Projet6_Kasa/static/css/main.851a5639.css.map",
-    "main.e2335501.js.map": "/OC_Projet6_Kasa/static/js/main.e2335501.js.map"
+    "main.0e4b236e.css.map": "/OC_Projet6_Kasa/static/css/main.0e4b236e.css.map",
+    "main.693d6bcd.js.map": "/OC_Projet6_Kasa/static/js/main.693d6bcd.js.map"
   },
   "entrypoints": [
-    "static/css/main.851a5639.css",
-    "static/js/main.e2335501.js"
+    "static/css/main.0e4b236e.css",
+    "static/js/main.693d6bcd.js"
   ]
 }
