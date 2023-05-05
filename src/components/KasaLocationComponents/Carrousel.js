@@ -1,24 +1,3 @@
-// import React, { useState } from "react";
-
-// const Carrousel = ({ images }) => {
-//   const [index, setIndex] = useState(0);
-
-//   const handleClick = (increment) => {
-//     setIndex((index + increment + images.length) % images.length);
-//   };
-
-//   return (
-//     <div>
-//       <img src={images[index]} alt="selected" />
-//       <div>
-//         <button onClick={() => handleClick(-1)}>Précédent</button>
-//         <button onClick={() => handleClick(1)}>Suivant</button>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Carrousel;
 import React, { useState, useEffect, useCallback } from "react";
 import chevronRight from "../../assets/icon/chevron-right-solid.svg";
 import chevronLeft from "../../assets/icon/chevron-left-solid.svg";

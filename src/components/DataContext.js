@@ -8,7 +8,7 @@ export const DataDone = ({ children }) => {
   useEffect(() => {
     const fetchData = async () => {
       // Mettre l adresse de la futur API dans la const url https...
-      const url = "./data/logements.json";
+      const url = "../../data/logements.json";
       try {
         const response = await fetch(url);
         const jsonData = await response.json();
